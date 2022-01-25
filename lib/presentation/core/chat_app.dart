@@ -15,6 +15,13 @@ class _ChatAppState extends State<ChatApp> {
   final AuthCubit _authCubit = getIt<AuthCubit>();
 
   @override
+  void dispose() {
+    _authCubit.userCubit.close();
+    _authCubit.close();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
