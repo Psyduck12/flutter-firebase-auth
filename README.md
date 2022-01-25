@@ -1,16 +1,16 @@
-# firebase_auth
+# Firebase Auth App
 
-A new Flutter project.
+A simple app that showcase authentication flow using firebase made in Flutter and Dart with Cubit State Management
+<br />  
+### Features:
+<ul>  
+  <li>Sign In</li>
+  <li>Sign Up</li>
+  <li>Google Sign In</li>
+  <li>Forgot Password</li>  
+  <li>User Profile</li>
+</ul>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screenshot:
+![This is an image](screenshot.png)
